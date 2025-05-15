@@ -27,36 +27,8 @@ sqlalchemy.url = postgresql://pyramid_user:pyramid_pass@localhost:5432/pyramid_m
 
 Akses endpoint API di: http://localhost:6543/api/matakuliah
 
-## 🔬 Pengujian API Menggunakan Postman
-
-### GET semua matakuliah:
-GET http://localhost:6543/api/matakuliah
-
-### POST tambah matakuliah:
-POST http://localhost:6543/api/matakuliah
-Body JSON:
-{
-  "kode_mk": "IF101",
-  "nama_mk": "Pemrograman Web",
-  "sks": 3,
-  "semester": 5
-}
-
-### GET berdasarkan ID:
-GET http://localhost:6543/api/matakuliah/1
-
-### PUT update matakuliah:
-PUT http://localhost:6543/api/matakuliah/1
-Body JSON:
-{
-  "nama_mk": "Pemrograman Web Lanjut",
-  "sks": 4
-}
-
-### DELETE matakuliah:
-DELETE http://localhost:6543/api/matakuliah/1
-
 ## 📂 Struktur Direktori
+```
 pyramid_matakuliah/
 ├── alembic/
 │   └── versions/
@@ -67,6 +39,7 @@ pyramid_matakuliah/
 │   └── __init__.py
 ├── development.ini
 ├── README.md
+```
 
 ## 📌 Hal yang Perlu Diperhatikan
 - Pastikan layanan PostgreSQL sudah aktif
