@@ -1,1 +1,0 @@
-# RizkiAdrianBennovry_121450073_pertemuan6
